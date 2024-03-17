@@ -9,6 +9,9 @@ packages = [{include = "repl_nix_devesh_career_website"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 flask = "^3.0.2"
+psycopg2-binary = "^2.9.9"
+sqlalchemy = "^2.0.28"
+pymysql = "^1.1.0"
 
 
 [build-system]
